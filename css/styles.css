@@ -18,6 +18,34 @@
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: #fbfbfb;
+    color:#0f0f0f;
+}
+
+#logohtml{
+    max-width: 40px;
+    width: 100%;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+p{
+    margin: 16px 0;
+
+}
+
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
@@ -27,6 +55,10 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img{
+    max-width: 100%;    
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -54,3 +86,63 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfb;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0 3px 10px -5px #5f5f5f;    
+}
+
+ul#menu {
+    display: flex;
+    font-size: 20px;
+}
+
+li.menu_head{
+    padding: 16px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+section#inicio{
+    justify-content: space-around;
+}
+
+figure.presentacion-img{
+margin-bottom: 20px;
+}
+
+figure.presentacion-img img{
+    border-radius: 50%;
+    width: 450px;
+}
+
+article.presentacion{
+    width: 100%;
+    text-align: center;
+}
+
+a.button{
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display:inline-block;
+
+}
