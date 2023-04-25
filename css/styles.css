@@ -2,7 +2,9 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&display=swap');
+</style>
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
@@ -141,4 +143,37 @@ a.button {
   border-radius: 50px;
   font-size: 20px;
   display: inline-block;
+}
+
+section#contacto{
+  justify-content: space-around;
+  
+}
+
+article.contacto{
+  width: 100%;
+  text-align: center;
+  background: rgba(175, 89, 158, 0.3);
+}
+
+#contactame{
+  width: 100%;
+  display: flex;
+  flex-direction: row  
+}
+
+.email{
+  
+}
+
+footer{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;  
+  background: #af599e;
+  color: #fbfbfb;
+  
 }
