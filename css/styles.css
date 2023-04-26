@@ -24,7 +24,7 @@ body {
   line-height: 1.2;
   background-color: #fbfbfb;
   color: #0f0f0f;
-  min-height: 100vh;
+
 }
 
 #logohtml {
@@ -67,7 +67,7 @@ img {
 */
 main {  
   max-width: 1200px;
-  margin: auto;
+  margin:auto;
 }
 
 /* Recomendaciones! 
@@ -131,7 +131,7 @@ figure.presentacion-img {
 figure.presentacion-img img { /*para redondear la foto de presentación*/
   border-radius: 50%;
   width: 400px;
-}
+  }
 
 article.presentacion {
   width: 100%;
@@ -148,7 +148,8 @@ a.button {
 }
 
 section#contacto{
-  justify-content: space-around;  
+  justify-content: space-around; 
+  min-height: 50vh; 
 }
 
 article.contacto{
@@ -160,13 +161,30 @@ article.contacto{
 #contactame{
   width: 100%;
   display: flex;
-  flex-direction: row 
-   
+  flex-direction: row
+}
+
+figure.email{
+  width: 1000px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+figure.github{
+  width: 1000px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+figure.linkedin{
+  width: 1000px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 footer{
   display: flex;  
-  justify-content: space-between;
+  justify-content:space-around;
   align-items:center;
   width: 100%;
   height: 90px;  
